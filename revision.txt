@@ -1,0 +1,57 @@
+// Itérations
+ 
+for (let i = 0; i < table.lenght; i++) {
+
+}
+
+for value in table {
+    
+}
+
+for value of table {
+
+}
+
+// Fonctions
+
+function nomDeLaFonction(a,b) {
+    return a + b;
+}
+
+nomDeLaFonction(1,2);
+
+let maFonction = (a,b) => a+b
+
+// DOM et Événements
+
+let paragraph = document.getElementsByTagName("p");
+
+paragraph.addEventListener("click", function(event) {
+
+});
+
+// Formulaires
+
+<form> </form>
+
+input
+submit ...
+
+method Post / Get
+
+preventDefault();
+
+// Ajax
+
+let xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+};
+
+xhttp.open("GET", "filename", true);
+xhttp.send();
+
+JSON.parse;
